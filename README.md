@@ -1,4 +1,4 @@
-#Application
+# Application
 
 The application run with docker, so you have two ways to build `Dockerfile`.
 * You can run `docker image build -t app-checklist-image .`
@@ -16,8 +16,8 @@ on `/var/lib/app/out`.
 Still inside container, you can verify the files with `cat /var/lib/app/out/13-02-2021.out`, or
 look at on a project folder `out/13-02-2021.out` (look files section).
 
-#Files
-###Location are based on [this](https://stackoverflow.com/a/1510352) argument.
+# Files
+### Location are based on [this](https://stackoverflow.com/a/1510352) argument.
 
 Inside the container, the folder witch app runs is `/var/www`.
 
